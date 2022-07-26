@@ -39,5 +39,5 @@ WebUI.scrollToElement(findTestObject('Page_My Account  ToolsQA Demo Site/Text_He
 
 WebUI.verifyElementPresent(findTestObject('Page_My Account  ToolsQA Demo Site/Text_Hello Berhasil Login'), 0)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

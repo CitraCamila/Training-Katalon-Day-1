@@ -29,9 +29,9 @@ WebUI.click(findTestObject('Page_ToolsQA Demo Site  ToolsQA  Demo E-Com_8f3fb4/B
 
 WebUI.scrollToElement(findTestObject('Page_My Account  ToolsQA Demo Site/Tab_Register'), 0)
 
-WebUI.setText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Username_Register'), 'citra11')
+WebUI.setText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Username_Register'), 'citra13')
 
-WebUI.setText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Email Register'), 'citra11@gmail.com')
+WebUI.setText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Email Register'), 'citra13@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Password_Register'), '8wkTjk+rrzEk3z355PUADw==')
 
@@ -40,7 +40,7 @@ WebUI.verifyElementPresent(findTestObject('Page_My Account  ToolsQA Demo Site/Te
 WebUI.click(findTestObject('Page_My Account  ToolsQA Demo Site/Button_Register'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Log In  ToolsQA Demo Site  WordPress/input_Username or Email Address_log'), 
-    'citra11')
+    'citra13')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log In  ToolsQA Demo Site  WordPress/input_Password_pwd'), 
     '8wkTjk+rrzEk3z355PUADw==')
