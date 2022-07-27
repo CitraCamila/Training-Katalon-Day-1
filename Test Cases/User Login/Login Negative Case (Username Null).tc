@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Negative Case (Username Null)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60589046-c059-4a76-990f-a7e581a1b008</testCaseGuid>
+</TestCaseEntity>

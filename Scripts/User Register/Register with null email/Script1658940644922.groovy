@@ -29,9 +29,9 @@ WebUI.click(findTestObject('Page_ToolsQA Demo Site  ToolsQA  Demo E-Com_8f3fb4/B
 
 WebUI.scrollToElement(findTestObject('Page_My Account  ToolsQA Demo Site/Tab_Register'), 0)
 
-WebUI.setText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Username_Register'), 'citra1')
+WebUI.setText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Username_Register'), 'citra5')
 
-WebUI.setText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Email Register'), 'citra1@gmail.com')
+WebUI.setText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Email Register'), '')
 
 WebUI.setEncryptedText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Password_Register'), '8wkTjk+rrzEk3z355PUADw==')
 
@@ -39,10 +39,6 @@ WebUI.verifyElementPresent(findTestObject('Page_My Account  ToolsQA Demo Site/Te
 
 WebUI.click(findTestObject('Page_My Account  ToolsQA Demo Site/Button_Register'))
 
-WebUI.scrollToElement(findTestObject('Page_My Account  ToolsQA Demo Site/Text_Alert Username Already Registered'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page_My Account  ToolsQA Demo Site/Text_Alert Username Already Registered'), 
+WebUI.verifyElementPresent(findTestObject('Page_My Account  ToolsQA Demo Site/Text_Error Please provide a valid email address'), 
     0)
-
-WebUI.closeBrowser()
 

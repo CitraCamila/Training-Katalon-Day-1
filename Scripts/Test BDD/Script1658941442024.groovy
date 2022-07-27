@@ -17,32 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+CucumberKW.runFeatureFile('Include/features/Login.feature')
 
-WebUI.navigateToUrl('https://shop.demoqa.com/')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Page_ToolsQA Demo Site  ToolsQA  Demo E-Com_8f3fb4/Button_Dismiss'))
-
-WebUI.click(findTestObject('Page_ToolsQA Demo Site  ToolsQA  Demo E-Com_8f3fb4/Button_My Account'))
-
-WebUI.scrollToElement(findTestObject('Page_My Account  ToolsQA Demo Site/Tab_Register'), 0)
-
-WebUI.setText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Username_Register'), 'citra1')
-
-WebUI.setText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Email Register'), 'citra1@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Page_My Account  ToolsQA Demo Site/Input__Password_Register'), '8wkTjk+rrzEk3z355PUADw==')
-
-WebUI.verifyElementPresent(findTestObject('Page_My Account  ToolsQA Demo Site/Text_Medium'), 0)
-
-WebUI.click(findTestObject('Page_My Account  ToolsQA Demo Site/Button_Register'))
-
-WebUI.scrollToElement(findTestObject('Page_My Account  ToolsQA Demo Site/Text_Alert Username Already Registered'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page_My Account  ToolsQA Demo Site/Text_Alert Username Already Registered'), 
-    0)
-
-WebUI.closeBrowser()
+CucumberKW.runFeatureFile('Include/features/Register.feature')
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Text_Error Username Incorect</name>
+   <name>Text_Error Username is Required</name>
    <tag></tag>
-   <elementGuidId>3abed491-8cae-4611-b10f-cb070ef47326</elementGuidId>
+   <elementGuidId>92bdede6-9a94-450f-8a1e-245038f69d23</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,9 +11,9 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//strong[normalize-space()='ERROR']</value>
+         <value>//strong[normalize-space()='Error:']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

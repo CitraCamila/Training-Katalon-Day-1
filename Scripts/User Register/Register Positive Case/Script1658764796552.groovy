@@ -39,8 +39,8 @@ WebUI.verifyElementPresent(findTestObject('Page_My Account  ToolsQA Demo Site/Te
 
 WebUI.click(findTestObject('Page_My Account  ToolsQA Demo Site/Button_Register'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Log In  ToolsQA Demo Site  WordPress/input_Username or Email Address_log'), 
-    'citra11')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Log In  ToolsQA Demo Site  WordPress/input_Username or Email Address_log'), 
+    0)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log In  ToolsQA Demo Site  WordPress/input_Password_pwd'), 
     '8wkTjk+rrzEk3z355PUADw==')
